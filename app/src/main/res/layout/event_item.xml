@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="10dp"
+    android:padding="5dp"
+    android:id="@+id/event_item_id"
+    android:background="@color/colorPrimary">
+
+
+    <ImageView
+        android:id="@+id/img_game_logo"
+        android:layout_width="56dp"
+        android:layout_height="92dp"
+        android:src="@mipmap/ic_launcher_foreground"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="102dp"
+        android:layout_marginLeft="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/game_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Game Name"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/requester_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Requester"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/quest_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quest Information"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/time_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:textColor="@color/white"/>
+
+
+
+    </LinearLayout>
+
+    <!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="end">
+
+        <Button
+            android:id="@+id/submit_id"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Invite"
+            android:visibility="visible"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_bckgrnd"
+            />
+
+    </LinearLayout>
+    -->
+
+</LinearLayout>
